@@ -15,7 +15,7 @@ custom:
   namespace: ${self:service}-${self:provider.stage}
   stage: ${self:provider.stage}
   region: ${self:provider.region}
-  certificateArn: # ACM ARN goes here
+  certificateArn: 
   dev:
     domainName: dev.nsf.life
     imageDomainName: images-dev.nsf.life
